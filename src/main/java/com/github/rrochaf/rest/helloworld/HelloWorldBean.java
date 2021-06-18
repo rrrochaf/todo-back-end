@@ -1,4 +1,4 @@
-package com.github.rrochaf.rest;
+package com.github.rrochaf.rest.helloworld;
 
 public class HelloWorldBean {
 

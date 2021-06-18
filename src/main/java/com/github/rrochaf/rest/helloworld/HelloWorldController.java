@@ -1,4 +1,4 @@
-package com.github.rrochaf.rest;
+package com.github.rrochaf.rest.helloworld;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,7 +16,6 @@ public class HelloWorldController {
 	
 	@GetMapping(path = "/hello-world-bean")
 	public HelloWorldBean helloWorldBean() {
-		//throw new RuntimeException("Some Error has happened!");
 		return new HelloWorldBean("Hello World");
 	}
 	
